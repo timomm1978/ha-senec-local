@@ -1,6 +1,7 @@
 {
   "domain": "senec_local",
   "name": "SENEC.Home (local)",
+  "categories": ["energy.solar_batteries"],
   "codeowners": ["@timomm1978"],
   "config_flow": true,
   "documentation": "https://github.com/timomm1978/ha-senec-local",
