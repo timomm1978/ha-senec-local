@@ -1,11 +1,12 @@
 {
   "domain": "senec_local",
   "name": "SENEC.Home (local)",
-  "codeowners": [],
+  "codeowners": ["@timomm1978"],
   "config_flow": true,
   "documentation": "https://github.com/timomm1978/ha-senec-local",
   "integration_type": "device",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/timomm1978/ha-senec-local/issues",
   "requirements": [],
   "version": "0.1.0"
 }

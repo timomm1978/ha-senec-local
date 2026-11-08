@@ -1,5 +1,7 @@
 # SENEC.Home (local) for Home Assistant
 
+[![Validate](https://github.com/timomm1978/ha-senec-local/actions/workflows/validate.yml/badge.svg)](https://github.com/timomm1978/ha-senec-local/actions/workflows/validate.yml)
+
 Shows the live values of a SENEC.Home storage system in Home Assistant. It
 reads them directly from the unit in your network (`https://<ip>/lala.cgi`,
 the same source as the unit's own web page): no SENEC account, no cloud.
@@ -34,12 +36,22 @@ Use them in **Settings → Dashboards → Energy**:
 **Manually:** copy `custom_components/senec_local` into the `config/custom_components/`
 folder of your Home Assistant, then restart it.
 
-**HACS:** HACS → ⋮ → Custom repositories → add this repository's URL as type
-"Integration", install "SENEC.Home (local)", restart.
+**HACS:** HACS → ⋮ → Custom repositories → add
+`https://github.com/timomm1978/ha-senec-local` as type "Integration", install
+"SENEC.Home (local)", restart.
 
 Then **Settings → Devices & services → Add integration → SENEC.Home (local)**
 and enter the unit's IP address (e.g. `192.168.178.154`). Give the unit a fixed
 IP in your router; if it changes anyway, use *Reconfigure* on the integration.
+
+## Compared with other SENEC integrations
+
+[ha-senec-v3](https://github.com/marq24/ha-senec-v3) is the full-featured
+option: more models (V2, V3, V4/P4), the SENEC cloud API, and many more
+values. This one is deliberately small: V2/V3 units with the local web
+interface only, no account, no cloud, and energy totals built in.
+
+Not affiliated with SENEC GmbH. SENEC is a trademark of its owner.
 
 ## Development
 
