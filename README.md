@@ -48,8 +48,9 @@ IP in your router; if it changes anyway, use *Reconfigure* on the integration.
 
 [ha-senec-v3](https://github.com/marq24/ha-senec-v3) is the full-featured
 option: more models (V2, V3, V4/P4), the SENEC cloud API, and many more
-values. This one is deliberately small: V2/V3 units with the local web
-interface only, no account, no cloud, and energy totals built in.
+values. This one is deliberately small: units with the local web
+interface only (tested on a V3), no account, no cloud, and energy totals
+built in.
 
 Not affiliated with SENEC GmbH. SENEC is a trademark of its owner.
 
