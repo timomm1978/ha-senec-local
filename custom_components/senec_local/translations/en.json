@@ -1,0 +1,155 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SENEC unit",
+        "description": "Address of the SENEC storage system in your network, e.g. 192.168.178.154.",
+        "data": {
+          "host": "Host or IP address"
+        }
+      },
+      "reconfigure": {
+        "title": "SENEC unit",
+        "description": "Address of the SENEC storage system in your network, e.g. 192.168.178.154.",
+        "data": {
+          "host": "Host or IP address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No SENEC unit answers at this address."
+    },
+    "abort": {
+      "already_configured": "This SENEC unit is already set up.",
+      "reconfigure_successful": "Address updated.",
+      "wrong_device": "A different SENEC unit answers at this address."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery_charge_energy": {
+        "name": "Battery charged energy"
+      },
+      "battery_charge_power": {
+        "name": "Battery charging"
+      },
+      "battery_current": {
+        "name": "Battery current"
+      },
+      "battery_discharge_energy": {
+        "name": "Battery discharged energy"
+      },
+      "battery_discharge_power": {
+        "name": "Battery discharging"
+      },
+      "battery_power": {
+        "name": "Battery power"
+      },
+      "battery_soc": {
+        "name": "Battery charge"
+      },
+      "battery_temperature": {
+        "name": "Battery temperature"
+      },
+      "battery_voltage": {
+        "name": "Battery voltage"
+      },
+      "case_temperature": {
+        "name": "Case temperature"
+      },
+      "grid_export_energy": {
+        "name": "Grid export energy"
+      },
+      "grid_export_power": {
+        "name": "Grid export"
+      },
+      "grid_frequency": {
+        "name": "Grid frequency"
+      },
+      "grid_import_energy": {
+        "name": "Grid import energy"
+      },
+      "grid_import_power": {
+        "name": "Grid import"
+      },
+      "grid_power": {
+        "name": "Grid power"
+      },
+      "house_energy": {
+        "name": "House energy"
+      },
+      "house_power": {
+        "name": "House consumption"
+      },
+      "l1_current": {
+        "name": "Phase L1 current"
+      },
+      "l1_power": {
+        "name": "Phase L1 power"
+      },
+      "l1_voltage": {
+        "name": "Phase L1 voltage"
+      },
+      "l2_current": {
+        "name": "Phase L2 current"
+      },
+      "l2_power": {
+        "name": "Phase L2 power"
+      },
+      "l2_voltage": {
+        "name": "Phase L2 voltage"
+      },
+      "l3_current": {
+        "name": "Phase L3 current"
+      },
+      "l3_power": {
+        "name": "Phase L3 power"
+      },
+      "l3_voltage": {
+        "name": "Phase L3 voltage"
+      },
+      "mcu_temperature": {
+        "name": "Controller temperature"
+      },
+      "mpp1_current": {
+        "name": "String 1 current"
+      },
+      "mpp1_power": {
+        "name": "String 1 power"
+      },
+      "mpp1_voltage": {
+        "name": "String 1 voltage"
+      },
+      "mpp2_current": {
+        "name": "String 2 current"
+      },
+      "mpp2_power": {
+        "name": "String 2 power"
+      },
+      "mpp2_voltage": {
+        "name": "String 2 voltage"
+      },
+      "mpp3_current": {
+        "name": "String 3 current"
+      },
+      "mpp3_power": {
+        "name": "String 3 power"
+      },
+      "mpp3_voltage": {
+        "name": "String 3 voltage"
+      },
+      "power_ratio": {
+        "name": "Inverter power limit"
+      },
+      "solar_energy": {
+        "name": "Solar energy"
+      },
+      "solar_power": {
+        "name": "Solar power"
+      },
+      "system_state": {
+        "name": "System state"
+      }
+    }
+  }
+}

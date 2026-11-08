@@ -1,0 +1,155 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SENEC-Speicher",
+        "description": "Adresse des SENEC-Speichers in deinem Netz, z. B. 192.168.178.154.",
+        "data": {
+          "host": "Host oder IP-Adresse"
+        }
+      },
+      "reconfigure": {
+        "title": "SENEC-Speicher",
+        "description": "Adresse des SENEC-Speichers in deinem Netz, z. B. 192.168.178.154.",
+        "data": {
+          "host": "Host oder IP-Adresse"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unter dieser Adresse antwortet kein SENEC-Speicher."
+    },
+    "abort": {
+      "already_configured": "Dieser SENEC-Speicher ist bereits eingerichtet.",
+      "reconfigure_successful": "Adresse geändert.",
+      "wrong_device": "Unter dieser Adresse antwortet ein anderer SENEC-Speicher."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery_charge_energy": {
+        "name": "Batterie geladen"
+      },
+      "battery_charge_power": {
+        "name": "Batterie lädt"
+      },
+      "battery_current": {
+        "name": "Batteriestrom"
+      },
+      "battery_discharge_energy": {
+        "name": "Batterie entladen"
+      },
+      "battery_discharge_power": {
+        "name": "Batterie entlädt"
+      },
+      "battery_power": {
+        "name": "Batterieleistung"
+      },
+      "battery_soc": {
+        "name": "Batterieladestand"
+      },
+      "battery_temperature": {
+        "name": "Batterietemperatur"
+      },
+      "battery_voltage": {
+        "name": "Batteriespannung"
+      },
+      "case_temperature": {
+        "name": "Gehäusetemperatur"
+      },
+      "grid_export_energy": {
+        "name": "Netzeinspeisung Energie"
+      },
+      "grid_export_power": {
+        "name": "Netzeinspeisung"
+      },
+      "grid_frequency": {
+        "name": "Netzfrequenz"
+      },
+      "grid_import_energy": {
+        "name": "Netzbezug Energie"
+      },
+      "grid_import_power": {
+        "name": "Netzbezug"
+      },
+      "grid_power": {
+        "name": "Netzleistung"
+      },
+      "house_energy": {
+        "name": "Hausverbrauch Energie"
+      },
+      "house_power": {
+        "name": "Hausverbrauch"
+      },
+      "l1_current": {
+        "name": "Phase L1 Strom"
+      },
+      "l1_power": {
+        "name": "Phase L1 Leistung"
+      },
+      "l1_voltage": {
+        "name": "Phase L1 Spannung"
+      },
+      "l2_current": {
+        "name": "Phase L2 Strom"
+      },
+      "l2_power": {
+        "name": "Phase L2 Leistung"
+      },
+      "l2_voltage": {
+        "name": "Phase L2 Spannung"
+      },
+      "l3_current": {
+        "name": "Phase L3 Strom"
+      },
+      "l3_power": {
+        "name": "Phase L3 Leistung"
+      },
+      "l3_voltage": {
+        "name": "Phase L3 Spannung"
+      },
+      "mcu_temperature": {
+        "name": "Controllertemperatur"
+      },
+      "mpp1_current": {
+        "name": "String 1 Strom"
+      },
+      "mpp1_power": {
+        "name": "String 1 Leistung"
+      },
+      "mpp1_voltage": {
+        "name": "String 1 Spannung"
+      },
+      "mpp2_current": {
+        "name": "String 2 Strom"
+      },
+      "mpp2_power": {
+        "name": "String 2 Leistung"
+      },
+      "mpp2_voltage": {
+        "name": "String 2 Spannung"
+      },
+      "mpp3_current": {
+        "name": "String 3 Strom"
+      },
+      "mpp3_power": {
+        "name": "String 3 Leistung"
+      },
+      "mpp3_voltage": {
+        "name": "String 3 Spannung"
+      },
+      "power_ratio": {
+        "name": "Wechselrichter-Leistungsfreigabe"
+      },
+      "solar_energy": {
+        "name": "PV-Energie"
+      },
+      "solar_power": {
+        "name": "PV-Leistung"
+      },
+      "system_state": {
+        "name": "Systemzustand"
+      }
+    }
+  }
+}
